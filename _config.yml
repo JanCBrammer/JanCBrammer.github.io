@@ -1,15 +1,13 @@
-title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
+title: Jan C. Brammer
 
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
+ins_logo: "./banner.png"
 
 tracking_id: #
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_text: "Jekyll template by Ankit Sultana"
 
 sass:
     style: compressed
@@ -17,7 +15,7 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "index"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
