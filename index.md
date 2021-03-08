@@ -2,7 +2,8 @@
 layout: default
 ---
 
-Scientist and open source software developer. I love expanding my technical skills while building solutions to challenging problems.
+Scientist and open source software developer. I love expanding my technical skills while building solutions to challenging problems,
+especially in the space of sensor data.
 
 [GitHub](https://github.com/JanCBrammer){:target="_blank"}  
 [Twitter](https://twitter.com/JanCBrammer){:target="_blank"}
@@ -27,7 +28,7 @@ Scientist and open source software developer. I love expanding my technical skil
 * version control (git, GitHub)
 * continuous integration (GitHub actions, Travis)
 * software testing (pytest)
-* GUI development (qt)
+* GUI development (Qt)
 * database (Redis)
 
 
@@ -48,13 +49,13 @@ Scientist and open source software developer. I love expanding my technical skil
 
 **predicting psychopathology from physiological data**  
 [repository](https://github.com/JanCBrammer/PoliceInAction_PTSD_prediction){:target="_blank"} | [article](https://osf.io/3kjua/){:target="_blank"}
-> Applied supervised machine learning to investigate if physiological stress responses (heart signals and startle responses) predict the development of post traumatic stress disorder symptoms in police officers. Collaboration of neuro- and data scientists.
+> Applied machine learning to investigate if physiological stress responses (heart signals and startle responses) predict the development of post traumatic stress disorder symptoms in police officers. Collaboration of neuro- and data scientists.
 
 
 ## Experience
 ---
 
-**Research Scientist (PhD candidate)**, Radboud University Nijmegen, _2017-present_
+**PhD candidate (staff scientist)**, Radboud University Nijmegen, _2017-present_
 > I investigate how human physiological signals (heart and breathing) are linked to psychopathology and how they can be used to help people regulate their stress reactivity. My tasks range from software development and data science to presenting and publishing scientific articles.
 
 
