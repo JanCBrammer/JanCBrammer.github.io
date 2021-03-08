@@ -6,3 +6,6 @@ misc/
 Gemfile
 Gemfile.lock
 .jekyll-cache/
+*.out
+*.log
+*.aux

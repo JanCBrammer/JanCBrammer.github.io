@@ -1,0 +1,116 @@
+% TODO:
+% * color links
+
+\documentclass[a4paper, 10pt]{article}
+
+% import packages
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{hyperref}    % needed for clickable links
+\usepackage{enumitem}    % needed to style itemize
+\usepackage{fancyhdr}
+\usepackage{inconsolata}    % sudo apt-get install texlive-fonts-extra
+\usepackage{xcolor}
+
+% make base font of the document typewriter style (inconsolata)
+\renewcommand*\familydefault{\ttdefault}
+
+% style header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small last update: March 2021}
+\rhead{\small Jan C. Brammer}
+\cfoot{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+% modules
+\newcommand{\Head}[3]{
+    \noindent \textbf{\Huge Jan C. Brammer} \bigskip \newline
+    \textcolor{red}{location:} Aachen, Germany \newline
+    \textcolor{red}{email:} \href{mailto:#1}{#1} \newline
+    \textcolor{red}{website:} \url{#2} \bigskip \newline
+    {#3}
+}
+
+\newcommand{\NewSection}[1]{\section*{\Large #1 \hrulefill}}
+
+\newcommand{\EducationItem}[3]{\textbf{#1}, #2, \textit{#3} \newline}
+
+\newcommand{\ExperienceItem}[4]{\textbf{#1}, #2, \textit{#3} {\newline \begin{quote}  \vspace{-\baselineskip} #4 \vspace{\baselineskip} \end{quote}}}
+
+\newcommand{\Project}[4]{\noindent \textbf{#1} \newline
+    \href{#2}{\textcolor{red}{repository}} \textbar{} \href{#3}{\textcolor{red}{article}} \newline
+    \begin{quote} \vspace{-\baselineskip} #4 \vspace{\baselineskip} \end{quote}
+}
+
+
+\begin{document}
+
+%%% HEAD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\Head{jan.c.brammer@gmail.com}
+{https://jancbrammer.github.io/}
+{Scientist and open source software developer. I love expanding my technical skills while building solutions to challenging problems, especially in the space of sensor data.}
+
+
+%%% SKILLS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Skills}
+\begin{itemize}[leftmargin=*]    % remove default indent
+    \item open source software development
+    \item data science (wrangling, visualization, machine learning, inferential statistics)
+    \item physiological sensor data (electrocardiogram, photoplethysmography, breathing)
+    \item real-time digital signal processing
+    \item technical writing (e.g., documentation)
+    \item experiment design
+\end{itemize}
+
+
+%%% TECHNOLOGIES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Technologies}
+\begin{itemize}[leftmargin=*]
+    \item Python
+    \item Kotlin
+    \item version control (git, GitHub)
+    \item continuous integration (GitHub actions, Travis)
+    \item software testing (pytest)
+    \item GUI development (Qt)
+    \item database (Redis)
+\end{itemize}
+
+
+%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Projects}
+\Project{biofeedback application development}
+{}
+{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/frontiers_article.pdf}
+{Integrated physiological sensor data in a virtual reality training environment for the Dutch police. International, interdisciplinary collaboration of police, game developers, designers, and scientists.}
+
+\Project{NeuroKit}
+{https://github.com/neuropsychology/NeuroKit}
+{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/neurokit_article.pdf}
+{Implemented four core algorithms of one of the most popular open source software projects for physiological sensor data analysis. Remote, international, interdisciplinary collaboration of developers and scientists.}
+
+\Project{biopeaks}
+{https://github.com/JanCBrammer/biopeaks}
+{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/biopeaks_article.pdf}
+{Developed an open source graphical user interface for the interactive analysis of physiological sensor data. I used this project as a playground to seriously start working with packaging/deployment, continuous integration, and testing.}
+
+\Project{predicting psychopathology from physiological data}
+{https://github.com/JanCBrammer/PoliceInAction_PTSD_prediction}
+{https://osf.io/3kjua/}
+{Applied machine learning to investigate if physiological stress responses (heart signals and startle responses) predict the development of post traumatic stress disorder symptoms in police officers. Collaboration of neuro- and data scientists.}
+
+
+%%% EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Experience}
+\ExperienceItem{PhD candidate (staff scientist)}
+{Radboud University Nijmegen}
+{2017-present}
+{I investigate how human physiological signals (heart and breathing) are linked to psychopathology and how they can be used to help people regulate their stress reactivity. My tasks range from software development and data science to presenting and publishing scientific articles.}
+
+
+%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Education}
+\EducationItem{MSc Cognitive Neuroscience}{Maastricht University}{2015-2017}
+\EducationItem{BSc Psychology}{Maastricht University}{2012-2015}
+
+\end{document}
