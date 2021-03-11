@@ -1,6 +1,3 @@
-% TODO:
-% * color links
-
 \documentclass[a4paper, 10pt]{article}
 
 % import packages
@@ -49,7 +46,45 @@
 %%% HEAD %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \Head{jan.c.brammer@gmail.com}
 {https://jancbrammer.github.io/}
-{Scientist and open source software developer. I love expanding my technical skills while building solutions to challenging problems, especially in the space of sensor data.}
+{Scientist and open source software developer. Better software -> better science.}
+
+
+%%% EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Experience}
+\ExperienceItem{PhD candidate (staff scientist)}
+{Radboud University Nijmegen}
+{2017-present}
+{I investigate how human physiological signals (heart and breathing) are linked to psychopathology and how they can be used to help people regulate acute stress. My tasks range from software development and data science to presenting and publishing scientific articles.}
+
+
+%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Education}
+\EducationItem{MSc Cognitive Neuroscience}{Maastricht University}{2015-2017}
+\EducationItem{BSc Psychology}{Maastricht University}{2012-2015}
+
+
+%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\NewSection{Projects}
+\Project{biofeedback application development}
+{}
+{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/frontiers_article.pdf}
+{Integrated physiological sensor data in a virtual reality training environment for the Dutch police. International, interdisciplinary collaboration of police, game developers, designers, and scientists.}
+
+\Project{NeuroKit}
+{https://github.com/neuropsychology/NeuroKit}
+{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/neurokit_article.pdf}
+{Implemented and maintain four core algorithms of one of the most popular open source software projects for physiological sensor data analysis. Remote, international, interdisciplinary collaboration of developers and scientists.}
+
+\pagebreak
+\Project{biopeaks}
+{https://github.com/JanCBrammer/biopeaks}
+{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/biopeaks_article.pdf}
+{Developed and maintain an open source graphical user interface for the interactive analysis of physiological sensor data. I used this project as a playground to seriously start working with packaging/deployment, continuous integration, and testing.}
+
+\Project{predicting psychopathology from physiological data}
+{https://github.com/JanCBrammer/PoliceInAction_PTSD_prediction}
+{https://osf.io/3kjua/}
+{Applying machine learning to investigate if physiological stress responses (heart signals and startle responses) predict the development of post traumatic stress disorder symptoms in police officers. Collaboration of neuro- and data scientists.}
 
 
 %%% SKILLS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,7 +94,7 @@
     \item data science (wrangling, visualization, machine learning, inferential statistics)
     \item physiological sensor data (electrocardiogram, photoplethysmography, breathing)
     \item real-time digital signal processing
-    \item technical writing (e.g., documentation)
+    \item writing (e.g., technical documentation, scientific articles)
     \item experiment design
 \end{itemize}
 
@@ -76,41 +111,5 @@
     \item database (Redis)
 \end{itemize}
 
-
-%%% PROJECTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewSection{Projects}
-\Project{biofeedback application development}
-{}
-{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/frontiers_article.pdf}
-{Integrated physiological sensor data in a virtual reality training environment for the Dutch police. International, interdisciplinary collaboration of police, game developers, designers, and scientists.}
-
-\Project{NeuroKit}
-{https://github.com/neuropsychology/NeuroKit}
-{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/neurokit_article.pdf}
-{Implemented four core algorithms of one of the most popular open source software projects for physiological sensor data analysis. Remote, international, interdisciplinary collaboration of developers and scientists.}
-
-\Project{biopeaks}
-{https://github.com/JanCBrammer/biopeaks}
-{https://github.com/JanCBrammer/JanCBrammer.github.io/raw/gh-pages/biopeaks_article.pdf}
-{Developed an open source graphical user interface for the interactive analysis of physiological sensor data. I used this project as a playground to seriously start working with packaging/deployment, continuous integration, and testing.}
-
-\Project{predicting psychopathology from physiological data}
-{https://github.com/JanCBrammer/PoliceInAction_PTSD_prediction}
-{https://osf.io/3kjua/}
-{Applied machine learning to investigate if physiological stress responses (heart signals and startle responses) predict the development of post traumatic stress disorder symptoms in police officers. Collaboration of neuro- and data scientists.}
-
-
-%%% EXPERIENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewSection{Experience}
-\ExperienceItem{PhD candidate (staff scientist)}
-{Radboud University Nijmegen}
-{2017-present}
-{I investigate how human physiological signals (heart and breathing) are linked to psychopathology and how they can be used to help people regulate their stress reactivity. My tasks range from software development and data science to presenting and publishing scientific articles.}
-
-
-%%% EDUCATION %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\NewSection{Education}
-\EducationItem{MSc Cognitive Neuroscience}{Maastricht University}{2015-2017}
-\EducationItem{BSc Psychology}{Maastricht University}{2012-2015}
 
 \end{document}
