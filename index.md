@@ -26,7 +26,7 @@ Scientist and open source software developer. Better software -> better science.
 ---
 
 **biofeedback application development**  
-[article](./frontiers_article.pdf){:target="_blank"}
+[article](https://doi.org/10.3389/fpsyg.2021.586553){:target="_blank"}
 > Integrated physiological sensor data in a virtual reality training environment for the Dutch police. International, interdisciplinary collaboration of police, game developers, designers, and scientists.
 
 **NeuroKit**  
