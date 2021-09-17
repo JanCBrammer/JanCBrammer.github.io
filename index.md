@@ -4,10 +4,6 @@ layout: default
 
 Scientist and open source software developer. Better software -> better science.
 
-[GitHub](https://github.com/JanCBrammer){:target="_blank"}  
-[Twitter](https://twitter.com/JanCBrammer){:target="_blank"}
-
-
 ## Experience
 ---
 
