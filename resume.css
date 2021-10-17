@@ -1,0 +1,50 @@
+.accent {
+    color: #FF0F00;
+}
+
+a {
+    color: #FF0F00;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0 0 0 15px;;
+}
+
+body {
+    font-family: Inconsolata;
+    font-size: 11pt;
+    margin: 50px;
+}
+
+blockquote {
+    margin: -10px 0 30px 0;
+    padding: 0 0 0 0;
+}
+
+h2:after {
+    content: ' ';
+    display: block;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 2px;
+}
+
+@page {
+
+    font-family: Inconsolata;
+    font-size: 9pt;
+
+    @bottom-center {
+        content: counter(page);
+    };
+
+    @top-left {
+        content: 'latest update: March 2021';
+    };
+
+    @top-right {
+        content: 'Jan C. Brammer';
+    };
+
+}

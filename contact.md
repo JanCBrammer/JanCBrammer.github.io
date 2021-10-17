@@ -3,5 +3,5 @@ layout: default
 is_contact: true
 ---
 
-Email: [jan.c.brammer@gmail.com](mailto:jan.c.brammer@gmail.com)  
-Location: Aachen, Germany
+email: [jan.c.brammer at gmail dot com](mailto:jan.c.brammer@gmail.com)  
+location: Aachen, Germany
