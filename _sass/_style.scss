@@ -19,7 +19,6 @@ h2:after {
     content:' ';
     display:block;
     border:1px solid black;
-    width:$max-width;
     margin-top: 2px;
 }
 a {
@@ -80,9 +79,9 @@ hr {
     min-height: 100%;
 }
 
-/* Institute Image */
+/* Banner */
 
-#ins-logo {
+#banner {
 	margin: auto;
 	display: block;
 	max-height: 100px;
@@ -136,4 +135,3 @@ hr {
 }
 
 @import "typography";
-@import "tables";

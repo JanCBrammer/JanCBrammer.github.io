@@ -1,9 +1,10 @@
 title: Jan C. Brammer
 
 markdown: kramdown
-ins_logo: "./banner.png"
+banner: "./banner.png"
 
-tracking_id: #
+favicon: yes
+favicon_location: "./favicon.png"
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
