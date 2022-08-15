@@ -2,56 +2,68 @@
 layout: default
 ---
 
-Scientist and open source software developer. Better software -> better science.
+Scientist turned software craftsperson.
+https://grugbrain.dev
+Software development as gardening.
+Generalist.
+Refactoring.
 
 
 ## Experience
 
-**PhD candidate (staff scientist)**, Radboud University Nijmegen, _2017-present_
-> I investigate how human physiological signals (heart and breathing) are linked to psychopathology and how they can be used to help people regulate acute stress. My tasks range from software development and data science to presenting and publishing scientific articles.
+### Software developer / RWTH Aachen / 2021-current
+Role description.
 
+#### Chemotion ELN
+[repository](https://github.com/ComPlat/chemotion_ELN)  
+Project description.
 
-## Education
+#### TUCAN
+[repository](https://github.com/TUCAN-nest/TUCAN)  
+Project description.
 
-**MSc Cognitive Neuroscience**, Maastricht University, _2015-2017_  
-**BSc Psychology**, Maastricht University, _2012-2015_
+### Staff scientist / Radboud University Nijmegen / 2017-2021
+Worked in research and development with tasks ranging from software development and data science to experiment design and the publication of scientific articles.
 
+#### biofeedback application development
+[repository](https://github.com/JanCBrammer/OpenHRV) / [article](https://doi.org/10.3389/fpsyg.2021.586553)  
+Integrated heart and breathing sensor data into a virtual reality training to help Dutch police officers regulate acute stress.
+International, interdisciplinary collaboration of police, game developers, designers, and scientists.
 
-## Projects
+### Personal Projects / The Internet / ongoing
+Description.
 
-**biofeedback application development**  
-[article](https://doi.org/10.3389/fpsyg.2021.586553)
-> Integrated physiological sensor data in a virtual reality training environment for the Dutch police. International, interdisciplinary collaboration of police, game developers, designers, and scientists.
+#### NeuroKit
+[repository](https://github.com/neuropsychology/NeuroKit) / [article](https://jancbrammer.github.io/neurokit_article.pdf)  
+Implemented and maintain four core algorithms of one of the most popular open source software projects for physiological sensor data analysis.
+Remote, international, interdisciplinary collaboration of developers and scientists.
 
-**NeuroKit**  
-[repository](https://github.com/neuropsychology/NeuroKit) | [article](./neurokit_article.pdf)
-> Implemented and maintain four core algorithms of one of the most popular open source software projects for physiological sensor data analysis. Remote, international, interdisciplinary collaboration of developers and scientists.
-
-**biopeaks**  
-[repository](https://github.com/JanCBrammer/biopeaks) | [article](./biopeaks_article.pdf)
-> Developed and maintain an open source graphical user interface for the interactive analysis of physiological sensor data. I used this project as a playground to seriously start working with packaging/deployment, continuous integration, and testing.
-
-**predicting psychopathology from physiological data**  
-[repository](https://github.com/JanCBrammer/PoliceInAction_PTSD_prediction) | [article](https://osf.io/3kjua/)
-> Applying machine learning to investigate if physiological stress responses (heart signals and startle responses) predict the development of post traumatic stress disorder symptoms in police officers. Collaboration of neuro- and data scientists.
+#### biopeaks
+[repository](https://github.com/JanCBrammer/biopeaks) / [article](https://jancbrammer.github.io/biopeaks_article.pdf)  
+Developed and maintain an open source graphical user interface for the interactive analysis of physiological sensor data.
 
 
 ## Skills
 
 * open source software development
+* writing (e.g., technical documentation, scientific articles)
 * data science (wrangling, visualization, machine learning, inferential statistics)
 * physiological sensor data (electrocardiogram, photoplethysmography, breathing)
 * real-time digital signal processing
-* writing (e.g., technical documentation, scientific articles)
 * experiment design
 
 
 ## Technologies
 
-* Python
-* Kotlin
-* version control (git, GitHub)
-* continuous integration (GitHub actions, Travis)
-* software testing (pytest)
-* GUI development (Qt)
-* database (Redis)
+**Languages**: Python, Ruby, JavaScript, Bash  
+**Version control & Collaboration**: git, GitHub  
+**DevOps**: Docker, GitHub Actions  
+**Testing**: pytest, RSpec  
+**Databases**: Redis, PostgreSQL  
+**Frameworks**: PySide6 (Qt for Python)
+
+
+## Education
+
+**MSc Cognitive Neuroscience**, Maastricht University, 2015-2017  
+**BSc Psychology**, Maastricht University & Concordia University Montreal, 2012-2015

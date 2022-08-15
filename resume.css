@@ -30,6 +30,14 @@ h2:after {
     margin-top: 2px;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    margin-bottom: -15px;
+}
+
 @page {
 
     font-family: Inconsolata;
@@ -40,7 +48,7 @@ h2:after {
     };
 
     @top-left {
-        content: 'latest update: March 2021';
+        content: 'latest update: August 2022';
     };
 
     @top-right {
