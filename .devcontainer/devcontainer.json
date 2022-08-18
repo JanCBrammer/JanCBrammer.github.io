@@ -14,7 +14,11 @@
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [],
+	"extensions": [
+		"streetsidesoftware.code-spell-checker",
+		"RobbOwen.synthwave-vscode",
+		"ecmel.vscode-html-css"
+	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [
