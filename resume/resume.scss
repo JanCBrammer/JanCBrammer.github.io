@@ -1,0 +1,26 @@
+@import "../_sass/resume_style.scss";
+
+body {
+    font-family: Inconsolata;
+    font-size: 11pt;
+    margin: 30px;
+}
+
+@page {
+
+    font-family: Inconsolata;
+    font-size: 9pt;
+
+    @bottom-center {
+        content: counter(page);
+    };
+
+    @top-left {
+        content: 'latest update: August 2022';
+    };
+
+    @top-right {
+        content: 'Jan C. Brammer';
+    };
+
+}

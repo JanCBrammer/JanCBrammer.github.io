@@ -1,0 +1,41 @@
+h2:after {
+  content: ' ';
+  display: block;
+  border: 1px solid black;
+  margin-top: 2px; }
+
+h3 {
+  text-decoration: underline; }
+
+h4 {
+  margin-bottom: -15px; }
+
+a {
+  text-decoration: none;
+  color: #FF0F00; }
+
+a:hover {
+  text-decoration: underline; }
+
+ul {
+  padding: 0 0 0 15px; }
+
+.accent {
+  color: #FF0F00; }
+
+body {
+  font-family: Inconsolata;
+  font-size: 11pt;
+  margin: 30px; }
+
+@page {
+  font-family: Inconsolata;
+  font-size: 9pt;
+  @bottom-center {
+    content: counter(page); }
+  @top-left {
+    content: 'latest update: August 2022'; }
+  @top-right {
+    content: 'Jan C. Brammer'; } }
+
+/*# sourceMappingURL=resume.css.map */
