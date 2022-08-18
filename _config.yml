@@ -6,17 +6,13 @@ banner: "./banner.png"
 favicon: yes
 favicon_location: "./favicon.png"
 
-footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Jekyll template by Ankit Sultana"
-
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
  - name: "Resume"
-   link: "resume.pdf"
+   link: "resume/resume.pdf"
  - name: "Contact"
    link: "contact"
  - name: "GitHub"
