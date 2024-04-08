@@ -1,0 +1,25 @@
+{
+	"name": "Jekyll",
+	"image": "mcr.microsoft.com/devcontainers/jekyll",
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"RobbOwen.synthwave-vscode",
+				"ecmel.vscode-html-css",
+				"esbenp.prettier-vscode",
+				"GitHub.copilot-chat",
+				"eamodio.gitlens",
+				"DavidAnson.vscode-markdownlint"
+			]
+		}
+	},
+
+	"forwardPorts": [
+		// Jekyll server
+		4000
+	],
+
+	"postCreateCommand": "sudo apt-get update && sudo apt-get -y install --no-install-recommends pandoc weasyprint"
+}
