@@ -11,3 +11,5 @@ Gemfile.lock
 *.aux
 .vscode
 resume.html
+resume.css
+resume.css.map
