@@ -1,5 +1,5 @@
 A clean, single column, monospace resume template built for Jekyll.
-Derived from https://github.com/ankitsultana/researcher.
+Derived from <https://github.com/ankitsultana/researcher>.
 
 ### Installation
 
