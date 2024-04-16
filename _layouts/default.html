@@ -70,16 +70,10 @@
       <div style="clear: both"></div>
       <hr />
       <div class="container content">
-        {{ content }} {% if site.footer == true %}
+        {{ content }}
         <hr />
-        <p style="text-align: center; margin-bottom: 10px">
-          <a href="{{ site.footer_url }}" style="color: black"
-            ><small>{{ site.footer_text }}</small></a
-          >
-        </p>
-        {% endif %}
       </div>
     </div>
+    <footer style="text-align: center">latest update: {{ site.latest_update }}</footer>
   </body>
-  <footer></footer>
 </html>
