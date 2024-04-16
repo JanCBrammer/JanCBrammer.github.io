@@ -1,10 +1,10 @@
 title: Jan C. Brammer
 
 markdown: kramdown
-banner: "./banner.png"
+banner: "./assets/banner.png"
 
 favicon: yes
-favicon_location: "./favicon.png"
+favicon_location: "./assets/favicon.png"
 
 sass:
     style: compressed
@@ -12,7 +12,7 @@ sass:
 
 nav:
  - name: "Resume"
-   link: "resume/resume.pdf"
+   link: "assets/resume.pdf"
  - name: "Contact"
    link: "contact"
  - name: "GitHub"

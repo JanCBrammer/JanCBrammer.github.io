@@ -37,13 +37,13 @@ International, interdisciplinary collaboration of police, game developers, desig
 
 #### NeuroKit
 
-[repository](https://github.com/neuropsychology/NeuroKit) / [article](https://jancbrammer.github.io/neurokit_article.pdf)  
+[repository](https://github.com/neuropsychology/NeuroKit) / [article](assets/neurokit_article.pdf)  
 Implemented and maintain four core algorithms of one of the most popular open source software projects for physiological sensor data analysis.
 Remote, international, interdisciplinary collaboration of developers and scientists.
 
 #### biopeaks
 
-[repository](https://github.com/JanCBrammer/biopeaks) / [article](https://jancbrammer.github.io/biopeaks_article.pdf)  
+[repository](https://github.com/JanCBrammer/biopeaks) / [article](assets/biopeaks_article.pdf)  
 Developed and maintain an open source graphical user interface for the interactive analysis of physiological sensor data.
 
 ## Skills

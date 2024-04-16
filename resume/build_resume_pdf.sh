@@ -11,4 +11,4 @@ latest_update=$(grep latest_update: ../_config.yml | sed 's/latest_update: //' |
 sed -i "s/latest update: <latest_update>/latest update: $latest_update/" resume.css
 
 # Build PDF from HTML styled with CSS.
-weasyprint resume.html resume.pdf -s resume.css
+weasyprint resume.html ../assets/resume.pdf -s resume.css
