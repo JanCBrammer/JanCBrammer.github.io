@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 
-$accent-color: #FF0F00;
+$accent-color: #0095B6; // Bondi blue
 
 h1 {
     margin-bottom: 30px;
@@ -21,6 +21,12 @@ h4 {
     margin-bottom: -15px;
 }
 
+h5 {
+    margin-top: -10px;
+    margin-bottom: -15px;
+    font-size: inherit;
+}
+
 a {
     text-decoration: none;
     color: $accent-color;
@@ -32,6 +38,10 @@ a:hover {
 
 ul {
     padding: 0 0 0 15px;;
+}
+
+blockquote {
+    margin-left: 15px;
 }
 
 .accent {

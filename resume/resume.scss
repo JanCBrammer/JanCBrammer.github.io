@@ -11,16 +11,23 @@ body {
     font-family: Inconsolata;
     font-size: 9pt;
 
+    @top-center {
+        content: url('../assets/banner.png');
+        transform: scale(0.05);
+    };
+
     @bottom-center {
         content: counter(page);
     };
 
     @top-left {
         content: 'latest update: <latest_update>';
+        white-space: nowrap;
     };
 
     @top-right {
         content: 'Jan C. Brammer';
+        white-space: nowrap;
     };
 
 }
