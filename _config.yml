@@ -1,10 +1,8 @@
 title: Jan C. Brammer
 
 markdown: kramdown
-banner: "./assets/banner.png"
-
-favicon: yes
-favicon_location: "./assets/favicon.png"
+banner: "./assets/icon.png"
+favicon: "./assets/icon.png"
 
 sass:
     style: compressed
