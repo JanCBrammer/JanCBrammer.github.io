@@ -4,7 +4,7 @@ layout: default
 
 I have 5 years of experience in developing open source [software for science](https://www.nature.com/articles/d41586-022-01516-2)
 and wrestling the [complexity demon](https://grugbrain.dev) along the way.
-I strive to be a generalist, and I'm most happy when I get to write idiomatic, concise, functional(ish), and type-annotated Python.
+I strive to be a generalist and I'm most happy when I get to write idiomatic, concise, functional(ish), and type-annotated Python.
 
 ## Experience
 
