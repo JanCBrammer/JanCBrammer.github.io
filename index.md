@@ -2,9 +2,13 @@
 layout: default
 ---
 
-I have 5 years of experience in developing open source [software for science](https://www.nature.com/articles/d41586-022-01516-2)
-and wrestling the [complexity demon](https://grugbrain.dev) along the way.
-I strive to be a pragmatic generalist and I'm most happy when I get to write idiomatic, concise, functional(ish), and type-annotated Python that's easy to delete.
+## Summary
+
+- 5+ years of professional experience in developing open source software on multiple projects and distributed agile teams.
+- Comfortable with legacy code-bases and green-field projects.
+- Experience "beyond" the ticket: user interviews, requirement analyses, documentation.
+- I care about the big picture: managing technical debt, automatization, refactoring.
+- I strive to be a pragmatic generalist and I'm most happy when I get to write idiomatic, concise, functional(ish) code that's easy to delete.
 
 ## Experience
 
