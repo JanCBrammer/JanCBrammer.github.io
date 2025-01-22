@@ -38,7 +38,7 @@ Open source identifiers for chemical molecules. These identifiers are to molecul
 I developed an extensive test suite and CI for [InChI](https://en.wikipedia.org/wiki/International_Chemical_Identifier),
 a legacy C library that is fundamental to commercial and academic chemistry.
 I also contributed significantly to moving InChI's development to GitHub.
-TUCAN is a prototype that addresses some of InChI's shortcomings for anorganic chemistry.
+TUCAN is a prototype that addresses some of InChI's shortcomings for inorganic chemistry.
 
 >##### Technologies
 >
