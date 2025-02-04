@@ -8,7 +8,8 @@ layout: default
 - Comfortable with legacy code-bases and green-field projects.
 - Experience "beyond" the ticket: user interviews, requirement analyses, documentation.
 - I care about the big picture: managing technical debt, automatization, refactoring.
-- I strive to be a pragmatic generalist and I'm most happy when I get to write idiomatic, concise, functional(ish) code that's easy to delete.
+- I strive to be a pragmatic generalist.
+- Culture and context permitting, I love writing code that is simple, functional (the [paradigm](https://en.wikipedia.org/wiki/Functional_programming)) and easy to delete.
 
 ## Experience
 
@@ -46,7 +47,7 @@ TUCAN is a prototype that addresses some of InChI's shortcomings for inorganic c
 >
 >##### Links
 >
-><https://github.com/IUPAC-InChI/InChI>, <https://github.com/TUCAN-nest/TUCAN>, <https://doi.org/10.1186/s13321-022-00640-5>
+><https://github.com/IUPAC-InChI/InChI>, <https://doi.org/10.1039/D4FD00145A>, <https://github.com/TUCAN-nest/TUCAN>, <https://doi.org/10.1186/s13321-022-00640-5>
 
 ### Staff scientist / Radboud University Nijmegen / 2017-2021
 
@@ -58,7 +59,7 @@ My tasks ranged from software development and data science to experiment design,
 A virtual reality training to help Dutch police officers regulate acute stress.
 International, interdisciplinary collaboration of scientists, designers, game developers, and police.
 I integrated heart and breathing sensor data into the application, ran extensive user tests, and analyzed requirements.
-I'm no longer on this project, but I keep maintaining the codebase as a personal project.
+I am no longer on this project, but I keep maintaining the codebase as a personal project.
 
 >##### Technologies
 >
