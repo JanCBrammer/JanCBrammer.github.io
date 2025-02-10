@@ -1,14 +1,15 @@
 @import "../_sass/resume_style.scss";
+@import "../_sass/vars.scss";
 
 body {
-    font-family: Inconsolata;
+    font-family: $font-family;
     font-size: 11pt;
     margin: 30px;
 }
 
 @page {
 
-    font-family: Inconsolata;
+    font-family: $font-family;
     font-size: 9pt;
 
     @top-center {
