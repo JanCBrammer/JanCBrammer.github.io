@@ -4,7 +4,7 @@ layout: default
 
 ## Summary
 
-- 5+ years of professional experience in developing open source software on multiple projects and distributed agile teams.
+- 6+ years of professional experience in developing open source software on multiple projects and distributed agile teams.
 - Comfortable with legacy code-bases and green-field projects.
 - Experience "beyond" the ticket: user interviews, requirement analyses, documentation.
 - I care about the big picture: managing technical debt, automatization, refactoring.
@@ -43,7 +43,7 @@ TUCAN is a prototype that addresses some of InChI's shortcomings for inorganic c
 
 >##### Technologies
 >
->Python (pytest, pydantic, ctypes, networkx), bash, SQLite, Docker, GitHub Actions, GitHub Copilot, VSCode
+>Python (pytest, pydantic, ctypes, networkx), C, bash, SQLite, Docker, GitHub Actions, GitHub Copilot, VSCode
 >
 >##### Links
 >
