@@ -3,5 +3,5 @@ layout: default
 is_contact: true
 ---
 
-email: jan.c.brammer at gmail dot com  
+email: jan.brammer at protonmail dot com  
 location: Aachen, Germany
