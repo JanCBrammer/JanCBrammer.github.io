@@ -6,10 +6,10 @@ layout: default
 
 - 6+ years of professional experience in developing open source software on multiple projects and distributed agile teams.
 - Comfortable with legacy code-bases and green-field projects.
-- Experience "beyond" the ticket: user interviews, requirement analyses, documentation.
-- I care about the big picture: managing technical debt, automatization, refactoring.
-- I strive to be a pragmatic generalist.
-- Culture and context permitting, I love writing code that is simple, functional (the [paradigm](https://en.wikipedia.org/wiki/Functional_programming)) and easy to delete.
+- I care about the big picture: managing technical debt, automatization, refactoring, user interviews, requirement analyses, documentation.
+- In pre-agentic times I used to love writing code that is [simple](https://grugbrain.dev) and easy to delete.
+- As of late 2025, I mostly herd agents.
+- Everything other than software I write manually. Writing is thinking.
 
 ## Experience
 
